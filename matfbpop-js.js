@@ -35,9 +35,9 @@ return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').e
 
 jQuery(document).ready(function($){
 if($.cookie('popup_user_login') != 'yes'){
-$('#fanback').delay(1500).fadeIn('medium');
-$('#TheBlogWidgets, #fan-exit').click(function(){
-$('#fanback').stop().fadeOut('medium');
+$('#arka').delay(1500).fadeIn('medium');
+$('#wwwmatsiyahorg, #fan-exit').click(function(){
+$('#arka').stop().fadeOut('medium');
 });
 }
 $.cookie('popup_user_login', 'yes', { path: '/', expires: 7 });
